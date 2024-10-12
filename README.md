@@ -19,3 +19,6 @@ Steps to Create an App Password
 
 4.Use the password in the application:
 Enter the app password you got into the application settings (for example, in PHPMailer) in the place where you usually enter your Gmail account password.
+
+
+AT LEAST YOU DOWNLOAD COMPOSER AND GIT BASH Git-2.47.0-64-bit ( i use 64bit for my reason)
