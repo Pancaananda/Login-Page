@@ -17,13 +17,13 @@ function sendResetEmail($email, $token) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; 
         $mail->SMTPAuth = true;
-        $mail->Username = 'noreply.pancacode@gmail.com'; 
-        $mail->Password = 'rplg tosb csbr sfqx'; 
+        $mail->Username = 'YOUR-EMAIL@GMAIL.COM'; 
+        $mail->Password = 'YOUR-GOOGLE-APP-PASWORD'; 
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
         // Recipient and sender
-        $mail->setFrom('noreply.pancacode@gmail.com', 'Don`t Reply to this email, you cannot get an answer');
+        $mail->setFrom('YOUR-EMAIL@GMAIL.COM', 'Don`t Reply to this email, you cannot get an answer');
         $mail->addAddress($email);
 
         // Email content
